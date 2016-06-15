@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <pipelines group="group1">
+  <pipelines group="group12">
+    <authorization>
+      <view>
+        <role>view</role>
+      </view>
+      <operate>
+        <user>operate</user>
+      </operate>
+    </authorization>
     <pipeline name="upstream12" isLocked="false">
       <materials>
         <git url="https://github.com/rajiesh/self-express.git" />
