@@ -9,6 +9,7 @@
     <pipeline name="downstream1" isLocked="false">
       <materials>
 	      <pipeline pipelineName="upstream1" stageName="defaultStage" materialName="upstream1" />
+	      <pipeline pipelineName="main-repo" stageName="defaultStage" materialName="main-repo" />
       </materials>
       <stage name="defaultStage">
         <jobs>
@@ -25,6 +26,8 @@
     <environment name="dev">
       <pipelines>
         <pipeline name="upstream1" />
+        <pipeline name="downstream1" />
+        <pipeline name="main-repo" />
       </pipelines>
       <environmentvariables>
         <variable name="remote">
