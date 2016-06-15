@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <pipelines group="group1">
+    <pipeline name="upstream1" isLocked="false">
+      <materials>
+        <git url="https://github.com/rajiesh/self-express.git" />
+      </materials>
+      <stage name="defaultStage">
+        <jobs>
+          <job name="defaultJob">
+            <tasks>
+              <exec command="ls" />
+            </tasks>
+          </job>
+        </jobs>
+      </stage>
+    </pipeline>
+</cruise>
