@@ -3,7 +3,7 @@
   <pipelines group="group1">
     <pipeline name="upstream12" isLocked="false">
       <materials>
-        <git url="https://github.com/rajiesh/self-express1.git" />
+        <git url="https://github.com/rajiesh/self-express.git" />
       </materials>
       <stage name="defaultStage">
         <jobs>
