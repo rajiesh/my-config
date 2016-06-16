@@ -11,7 +11,7 @@
     </authorization>
     <pipeline name="upstream12" isLocked="false">
       <materials>
-        <git url="https://github.com/rajiesh/self-express.git" />
+        <git url="https://github.com/rajiesh/my-config.git" />
       </materials>
       <stage name="defaultStage">
         <jobs>
