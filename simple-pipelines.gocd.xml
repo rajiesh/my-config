@@ -39,7 +39,7 @@
         <pipeline name="downstream1" />
         <pipeline name="main-repo" />
         <pipeline name="upstream123" />
-        <pipeline name="upstream12" />
+        <pipeline name="upstream" />
       </pipelines>
       <environmentvariables>
         <variable name="remote">
