@@ -9,7 +9,7 @@
         <user>operate</user>
       </operate>
     </authorization>
-    <pipeline name="upstream" isLocked="false">
+    <pipeline name="no-duplicate" isLocked="false">
       <materials>
         <git url="https://github.com/rajiesh/my-config.git" />
       </materials>
