@@ -2,7 +2,7 @@
 <cruise xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <pipelines group="group1">
   	
-    <pipeline name="upstream1" isLocked="false">
+    <pipeline name="unique1" isLocked="false">
       <materials>
         <git url="https://github.com/rajiesh/self-express.git" />
       </materials>
@@ -16,9 +16,9 @@
         </jobs>
       </stage>
     </pipeline>
-    <pipeline name="downstream1" isLocked="false">
+    <pipeline name="unique2" isLocked="false">
       <materials>
-	      <pipeline pipelineName="upstream1" stageName="defaultStage" materialName="upstream1" />
+	      <pipeline pipelineName="unique1" stageName="defaultStage" materialName="unique1" />
 	      <pipeline pipelineName="main-repo" stageName="defaultStage" materialName="main-repo" />
       </materials>
       <stage name="defaultStage">
@@ -35,10 +35,10 @@
   <environments>
     <environment name="dev">
       <pipelines>
-        <pipeline name="upstream1" />
-        <pipeline name="downstream1" />
+        <pipeline name="unique1" />
+        <pipeline name="unique2" />
         <pipeline name="main-repo" />
-        <pipeline name="upstream123" />
+        <pipeline name="no-duplicate" />
         <pipeline name="upstream" />
       </pipelines>
       <environmentvariables>
