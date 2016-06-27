@@ -17,13 +17,9 @@
         <jobs>
           <job name="defaultJob">
             <tasks>
-              <exec command="touch">
-                <args>reports.txt</args>
+              <exec command="ls">
               </exec>
             </tasks>
-            <artifacts>
-              <test src="reports.txt" />
-            </artifacts>
           </job>
         </jobs>
       </stage>
