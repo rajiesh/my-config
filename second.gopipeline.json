@@ -6,13 +6,10 @@
 		"url": "https://github.com/rajiesh/my-config.git",
 		"type": "git"
 	}, {
-		"type": "dependency",
-		"attributes": {
-			"name": "dependency",
-			"pipeline": "jsonpipe",
-			"stage": "build",
-			"auto_update": true
-		}
+	  "pipeline": "jsonpipe",
+	  "stage": "build",
+	  "name": "pipe2",
+	  "type": "dependency"
 	}],
 	"stages": [{
 		"name": "defaultStage",
