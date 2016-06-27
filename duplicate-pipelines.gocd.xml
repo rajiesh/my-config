@@ -21,6 +21,9 @@
                 <args>report.txt</args>
               </exec>
             </tasks>
+            <artifacts>
+              <test src="report.txt" />
+            </artifacts>
           </job>
         </jobs>
       </stage>
