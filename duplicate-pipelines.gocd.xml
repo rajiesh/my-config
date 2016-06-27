@@ -17,7 +17,8 @@
         <jobs>
           <job name="defaultJob">
             <tasks>
-              <exec command="ls">
+              <exec command="touch">
+                <args>report.txt</args>
               </exec>
             </tasks>
           </job>
