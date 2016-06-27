@@ -41,7 +41,7 @@
                     "passed"
                   ],
                   "command": "ls",
-                  "arguments": [],
+                  "arguments": null,
                   "working_directory": null
                 }
           ]
