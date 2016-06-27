@@ -1,52 +1,45 @@
 {
-  "name": "downstream1",
-  "environment_variables": [],
-  "group" : "group1",
-  "materials": [
-    {
-      "url": "https://github.com/rajiesh/my-config.git",
-      "type": "git"
-    },{
-        "type": "dependency",
-        "attributes": {
-          "name": "dependency",
-          "pipeline": "jsonpipe",
-          "stage": "build",
-          "auto_update": true
-        }
-      }
-  ],
-  "stages": [
-    {
-      "name": "defaultStage",
-      "fetch_materials": true,
-      "never_cleanup_artifacts": false,
-      "clean_working_directory": false,
-      "environment_variables": [],
-      "jobs": [
-        {
-          "name": "defaultJob",
-          "environment_variables": [],
-          "tabs": [],
-          "resources": [],
-          "artifacts": [],
-          "properties": [],
-          "run_instance_count": null,
-          "timeout": 0,
-          "tasks": [
-            {
-                "type": "exec",
-                "attributes": {
-                  "run_if": [
-                    "passed"
-                  ],
-                  "command": "ls",
-                  "arguments": null,
-                  "working_directory": null
-                }
-          ]
-        }
-      ]
-    }
-  ]
+	"name": "downstream1",
+	"environment_variables": [],
+	"group": "group1",
+	"materials": [{
+		"url": "https://github.com/rajiesh/my-config.git",
+		"type": "git"
+	}, {
+		"type": "dependency",
+		"attributes": {
+			"name": "dependency",
+			"pipeline": "jsonpipe",
+			"stage": "build",
+			"auto_update": true
+		}
+	}],
+	"stages": [{
+		"name": "defaultStage",
+		"fetch_materials": true,
+		"never_cleanup_artifacts": false,
+		"clean_working_directory": false,
+		"environment_variables": [],
+		"jobs": [{
+			"name": "defaultJob",
+			"environment_variables": [],
+			"tabs": [],
+			"resources": [],
+			"artifacts": [],
+			"properties": [],
+			"run_instance_count": null,
+			"timeout": 0,
+			"tasks": [{
+				"type": "exec",
+				"attributes": {
+					"run_if": [
+						"passed"
+					],
+					"command": "ls",
+					"arguments": null,
+					"working_directory": null
+				}
+			}]
+		}]
+	}]
 }
