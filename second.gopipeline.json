@@ -4,7 +4,7 @@
 	"group": "group1",
 	"materials": [{
 		"url": "https://github.com/rajiesh/my-config.git",
-		"type": "git"
+		"type": "git",
 		"name": "git-pipe"
 	}, {
 	  "pipeline": "jsonpipe",
