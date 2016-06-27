@@ -10,6 +10,9 @@
       </operate>
     </authorization>
     <pipeline name="no-duplicate" isLocked="false">
+      <params>
+        <param name="gocd">gocd</param>
+      </params>
       <materials>
         <git url="https://github.com/rajiesh/my-config.git" />
       </materials>
@@ -17,13 +20,9 @@
         <jobs>
           <job name="defaultJob">
             <tasks>
-              <exec command="touch">
-                <args>report.txt</args>
+              <exec command="ls">
               </exec>
             </tasks>
-            <artifacts>
-              <test src="report.txt" />
-            </artifacts>
           </job>
         </jobs>
       </stage>
