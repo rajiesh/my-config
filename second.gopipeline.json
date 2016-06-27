@@ -8,7 +8,7 @@
 		"name": "git-pipe"
 	}, {
 	  "pipeline": "jsonpipe",
-	  "stage": "build",
+	  "stage": "testStage",
 	  "name": "pipe2",
 	  "type": "dependency"
 	}],
