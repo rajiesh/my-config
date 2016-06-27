@@ -32,23 +32,5 @@
         </jobs>
       </stage>
     </pipeline>
-    <pipeline name="no-duplicate" isLocked="false">
-      <params>
-        <param name="gocd">gocd</param>
-      </params>
-      <materials>
-        <git url="https://github.com/rajiesh/my-config.git" />
-      </materials>
-      <stage name="defaultStage">
-        <jobs>
-          <job name="defaultJob">
-            <tasks>
-              <exec command="ls">
-              </exec>
-            </tasks>
-          </job>
-        </jobs>
-      </stage>
-    </pipeline>
   </pipelines>
 </cruise>
