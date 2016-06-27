@@ -5,6 +5,7 @@
     <pipeline name="unique1" isLocked="false">
       <materials>
         <git url="https://github.com/rajiesh/self-express.git" />
+        <pipeline pipelineName="no-duplicate" stageName="defaultStage" materialName="no-duplicate" />
       </materials>
       <stage name="defaultStage">
         <jobs>
@@ -19,7 +20,7 @@
     <pipeline name="unique2" isLocked="false">
       <materials>
 	      <pipeline pipelineName="unique1" stageName="defaultStage" materialName="unique1" />
-	      <pipeline pipelineName="main-repo" stageName="defaultStage" materialName="main-repo" />
+	      <pipeline pipelineName="testinvert" stageName="defaultStage" materialName="testinvert" />
       </materials>
       <stage name="defaultStage">
         <jobs>
@@ -32,20 +33,6 @@
       </stage>
     </pipeline>
   </pipelines>
-  <environments>
-    <environment name="dev">
-      <pipelines>
-        <pipeline name="unique1" />
-        <pipeline name="unique2" />
-        <pipeline name="main-repo" />
-        <pipeline name="no-duplicate" />
-        <pipeline name="upstream" />
-      </pipelines>
-      <environmentvariables>
-        <variable name="remote">
-          <value>variable</value>
-        </variable>
-      </environmentvariables>
     </environment>
   </environments>
 </cruise>
