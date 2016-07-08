@@ -14,7 +14,7 @@
         <param name="gocd">gocd</param>
       </params>
       <materials>
-        <git url="https://github.com/rajiesh/my-config.git" />
+        <git url="file:///Users/rajieshn/workspace/manual/testrepos/git/dummy-repo" />
       </materials>
       <stage name="defaultStage">
         <jobs>
