@@ -11,11 +11,6 @@
 		      "pages"
 		    ]
 		  }
-	}, {
-	  "pipeline": "jsonpipe",
-	  "stage": "testStage",
-	  "name": "pipe2",
-	  "type": "dependency"
 	}],
 	"stages": [{
 		"name": "defaultStage",
