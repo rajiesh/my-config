@@ -20,7 +20,7 @@
     <pipeline name="unique2" isLocked="false">
       <materials>
 	      <pipeline pipelineName="unique1" stageName="defaultStage" materialName="unique1" />
-	      <pipeline pipelineName="testinvert" stageName="defaultStage" materialName="testinvert" />
+	      <!--<pipeline pipelineName="testinvert" stageName="defaultStage" materialName="testinvert" /> -->
       </materials>
       <stage name="defaultStage">
         <jobs>
