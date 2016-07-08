@@ -3,9 +3,14 @@
 	"environment_variables": [],
 	"group": "group1",
 	"materials": [{
-		"url": "https://github.com/rajiesh/my-config.git",
+		"url": "file:///Users/rajieshn/workspace/manual/testrepos/git/dummy-repo",
 		"type": "git",
-		"name": "git-pipe"
+		"name": "git-pipe",
+		"filter": {
+		    "whitelist": [
+		      "pages"
+		    ]
+		  }
 	}, {
 	  "pipeline": "jsonpipe",
 	  "stage": "testStage",
