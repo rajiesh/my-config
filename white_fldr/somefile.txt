@@ -1,1 +1,1 @@
-folder level whitelisting. Add a whitelisting content
+folder level whitelisting. Add a whitelisting content. Commit for checking use of asterix
