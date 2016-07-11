@@ -1,1 +1,1 @@
-folder level whitelisting
+folder level whitelisting. Add a whitelisting content
