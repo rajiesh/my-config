@@ -8,7 +8,7 @@
 		"name": "git-pipe",
 		"filter": {
 		    "whitelist": [
-		      "white_fldr"
+		      "white_fldr/**"
 		    ]
 		  }
 	}],
