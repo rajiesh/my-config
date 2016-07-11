@@ -3,12 +3,12 @@
 	"environment_variables": [],
 	"group": "group1",
 	"materials": [{
-		"url": "file:///Users/rajieshn/workspace/manual/testrepos/git/dummy-repo",
+		"url": "http://github.com/rajiesh/my-config.git",
 		"type": "git",
 		"name": "git-pipe",
 		"filter": {
 		    "whitelist": [
-		      "pages"
+		      "white.txt"
 		    ]
 		  }
 	}],
