@@ -3,8 +3,7 @@
 	"environment_variables": [],
 	"group": "group1",
 	"materials": [{
-		"url": "http://github.com/rajiesh/my-config.git",
-		"type": "git",
+		"type": "configrepo",
 		"name": "git-pipe",
 		"filter": {
 		    "whitelist": [
