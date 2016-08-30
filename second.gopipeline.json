@@ -3,7 +3,7 @@
 	"environment_variables": [],
 	"group": "group1",
 	"materials": [{
-		"url": "https://github.com/rajiesh/my-config.git"
+		"url": "https://github.com/rajiesh/my-config.git",
 		"type": "git",
 		"name": "git-pipe",
 		"filter": {
