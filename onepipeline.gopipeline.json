@@ -4,7 +4,9 @@
   "group" : "group1",
   "materials": [
     {
-      "type": "configrepo"
+      "type": "configrepo",
+      "auto_update": false,
+      "destination": "dest"
     }
   ],
   "stages": [
