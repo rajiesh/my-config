@@ -6,7 +6,6 @@
     {
       "url": "https://github.com/rajiesh/my-config.git",
       "type": "git",
-      "auto_update": false,
       "destination": "dest"
     }
   ],
