@@ -1,1 +1,2 @@
 folder level whitelisting. Add a whitelisting content. Commit for checking use of asterix
+check configrepo type material
