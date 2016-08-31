@@ -6,7 +6,7 @@
 		"type": "configrepo",
 		"name": "git-pipe",
 		"filter": {
-		    "ignore": [
+		    "whitelist": [
 		      "white_fldr/*"
 		    ]
 		  }
