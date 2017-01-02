@@ -1,4 +1,4 @@
 {
     "name" : "QA",
-    "pipelines" : [ "P2", "P2-repo" ]
+    "pipelines" : [ "P2", "P2-alone" ]
 }
