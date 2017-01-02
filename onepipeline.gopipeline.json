@@ -9,7 +9,7 @@
     },
     {
       "type": "dependency",
-      "name": "dependency",
+      "name": "dependency1",
       "pipeline": "from-main-repo",
       "stage": "defaultStage"
     }
