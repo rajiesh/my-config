@@ -5,6 +5,7 @@
   "materials": [
     {
       "type": "configrepo",
+      "name": "git",
       "destination": "dest"
     },
     {
