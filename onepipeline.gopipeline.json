@@ -5,7 +5,7 @@
   "materials": [
     {
       "url": "https://github.com/rajiesh/my-config.git",
-      "type": "git",
+      "type": "configrepo",
       "destination": "dest"
     }
   ],
