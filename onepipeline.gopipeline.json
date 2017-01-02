@@ -12,7 +12,7 @@
       "type": "dependency",
       "name": "dependency1",
       "pipeline": "from-main-repo",
-      "stage": "defaultStage"
+      "stage": "default-Stage"
     }
   ],
   "stages": [
