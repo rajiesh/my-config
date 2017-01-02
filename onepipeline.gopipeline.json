@@ -4,7 +4,7 @@
   "group" : "group1",
   "materials": [
     {
-      "type": "confirepo",
+      "type": "configrepo",
       "destination": "dest"
     }
   ],
