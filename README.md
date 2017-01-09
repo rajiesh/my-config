@@ -1,3 +1,3 @@
 # my-config
 
-test repo
+test repo. just for test purposes
