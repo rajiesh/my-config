@@ -3,8 +3,9 @@
 	"environment_variables": [],
 	"group": "group1",
 	"materials": [{
-		"type": "configrepo",
+		"type": "git",
 		"name": "git-pipe",
+		"url": "http://github.com/rajiesh/self-express.git"
 		"filter": {
 		    "whitelist": [
 		      "white_fldr/*"
