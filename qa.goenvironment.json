@@ -1,7 +1,4 @@
 {
     "name" : "QA",
-    "pipelines" : [ "P2", "P2-alone" ],
-  "agents": [
-    "353dc6aa-e376-41b2-b2ba-1a9991436716"
-  ]
+    "pipelines" : [ "P2", "P2-alone" ]
 }
