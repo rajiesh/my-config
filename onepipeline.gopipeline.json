@@ -4,8 +4,9 @@
   "group" : "group1",
   "materials": [
     {
-      "type": "configrepo",
+      "type": "git",
       "name": "git",
+      "url": "http://github.com/rajiesh/self-express.git"
       "destination": "dest"
     },
     {
