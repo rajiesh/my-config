@@ -1,3 +1,3 @@
 # my-config
 
-test repo.just for test purposes
+test repo.just for test purpose
