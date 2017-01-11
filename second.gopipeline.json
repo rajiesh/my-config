@@ -5,7 +5,7 @@
 	"materials": [{
 		"type": "git",
 		"name": "git-pipe",
-		"url": "http://github.com/rajiesh/self-express.git"
+		"url": "http://github.com/rajiesh/self-express.git",
 		"filter": {
 		    "whitelist": [
 		      "white_fldr/*"
