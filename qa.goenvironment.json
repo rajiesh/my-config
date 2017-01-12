@@ -1,7 +1,7 @@
 {
     "name" : "QA",
     "pipelines" : [ "P2", "P2-alone", "from-main-repo" ],
-    "Agents" : ["826359f4-9f23-4a37-a51f-15b4c550700c"],
-    "environment_variables" : [{"name":"name",
+    "agents" : ["826359f4-9f23-4a37-a51f-15b4c550700c"],
+    "environment_variables" : [{"name":"name", 
                                "value":"value"}]
 }
