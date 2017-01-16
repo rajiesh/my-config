@@ -36,7 +36,17 @@
 			      "-version"
 			    ],
 			    "working_directory": null      
-			}]
+			},
+				 {
+   "type": "fetch",
+   "run_if": "any",
+   "pipeline": "use-template-1",
+   "stage": "my_stage",
+   "job": "defaultJob",
+   "is_source_a_file": false,
+   "source": "result",
+   "destination": "test"
+ }]
 		}]
 	}]
 }
