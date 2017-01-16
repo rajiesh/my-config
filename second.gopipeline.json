@@ -11,7 +11,12 @@
 		      "white_fldr/*"
 		    ]
 		  }
-	}],
+	},{
+  "pipeline": "use-template-1",
+  "stage": "my_stage-2",
+  "name": "pipe2",
+  "type": "dependency"
+}],
 	"stages": [{
 		"name": "defaultStage",
 		"fetch_materials": true,
@@ -41,8 +46,8 @@
    "type": "fetch",
    "run_if": "any",
    "pipeline": "use-template-1",
-   "stage": "my_stage",
-   "job": "defaultJob",
+   "stage": "my_stage-2",
+   "job": "defaultjob1",
    "is_source_a_file": false,
    "source": "result",
    "destination": "test"
