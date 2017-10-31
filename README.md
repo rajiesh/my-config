@@ -9,3 +9,4 @@ cmmiit -3
 comit -1without agent
 Lockit
 lockit-again
+Do not run while locked
