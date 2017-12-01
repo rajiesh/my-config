@@ -1,0 +1,46 @@
+{
+  "name": "single",
+  "environment_variables": [],
+  "group" : "group1",
+  "materials": [
+    {
+      "type": "git",
+      "name": "git",
+      "url": "http://github.com/rajiesh/self-express.git",
+      "destination": "dest"
+    }
+  ],
+  "stages": [
+    {
+      "name": "testStage",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": false,
+      "clean_working_directory": false,
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "build",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 0,
+          "tasks": [
+                  {
+      			    "type": "exec",
+      			    "run_if": "passed",
+      			    "on_cancel" : null,
+      			    "command": "ls",
+      			    "arguments": [
+      			      "-version"
+      			    ],
+      			    "working_directory": null      
+      			}
+          ]
+        }
+      ]
+    }
+  ]
+}
