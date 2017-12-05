@@ -8,6 +8,12 @@
       "name": "git",
       "url": "http://github.com/rajiesh/self-express.git",
       "destination": "dest"
+    },
+    {
+      "type": "dependency",
+      "name": "dependency1",
+      "pipeline": "from-main-repo",
+      "stage": "default-Stage"
     }
   ],
   "stages": [
