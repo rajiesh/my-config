@@ -2,6 +2,7 @@
   "name": "single",
   "environment_variables": [],
   "group" : "group1",
+  "lock_behavior" : "unlockWhenFinished",
   "materials": [
     {
       "type": "git",
