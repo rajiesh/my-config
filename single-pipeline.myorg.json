@@ -2,7 +2,7 @@
   "name": "single",
   "environment_variables": [],
   "group" : "group1",
-  "enable_pipeline_locking" : true,
+  "enable_pipeline_locking" : false,
   "materials": [
     {
       "type": "git",
