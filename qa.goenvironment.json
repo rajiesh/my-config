@@ -1,6 +1,6 @@
 {
     "name" : "QA",
     "pipelines" : [ "new-pipe" ],
-    "environment_variables" : [{"name":"name", 
+    "environment_variables" : [{"name":"name1", 
                                "value":"value"}]
 }
