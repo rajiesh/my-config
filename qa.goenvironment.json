@@ -1,6 +1,6 @@
 {
     "name" : "QA",
-    "pipelines" : [ "P2", "P2-alone", "from-main-repo" ],
+    "pipelines" : [ "single" ],
     "environment_variables" : [{"name":"name", 
                                "value":"value"}]
 }
