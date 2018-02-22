@@ -2,3 +2,4 @@ folder level whitelisting. Add a whitelisting content. Commit for checking use o
 check configrepo type material
 Ignore. blacklist
 whitelist
+Checkin to blacklisted folder
