@@ -3,3 +3,4 @@ check configrepo type material
 Ignore. blacklist
 whitelist
 Checkin to blacklisted folder
+Second checking to blacklisted folder
